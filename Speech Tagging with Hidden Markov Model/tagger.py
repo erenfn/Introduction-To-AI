@@ -1,6 +1,3 @@
-# The tagger.py starter code for CSC384 A4.
-# Currently reads in the names of the training files, test file and output file,
-# and calls the tagger (which you need to implement)
 import os
 import sys
 import copy
@@ -18,8 +15,6 @@ end_pun = {'.', '?', '!'}
 quotes = {'\'', '\"'}
 
 def tag(training_list, test_file, output_file):
-    # Tag the words from the untagged input file and write them into the output file.
-    # Doesn't do much else beyond that yet.
     print("Tagging the file.")
 
     sentences = parse_test(test_file)
